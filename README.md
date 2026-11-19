@@ -31,7 +31,7 @@ go build -o muchacho .
 ```
 Para compilar también los ejecutores nativos, instala CMake y un compilador C/C++ compatible:
 ```sh
-cmake -B build . && cmake --build build --parallel 4 && go build -o muchacho ..
+cmake -B build . && cmake --build build --parallel 4 && go build -o muchacho .
 ```
 El build de Go puede realizarse sin regenerar los componentes nativos ya disponibles. Para ejecutar inferencia se necesita el ejecutor nativo correspondiente a la plataforma y al formato del modelo.
 Inicio rápido
